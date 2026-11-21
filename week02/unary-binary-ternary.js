@@ -12,9 +12,10 @@ const b = 1;
 const c = 2;
 const d = 5;
 // + is binary operator
-console.log(b + c + d);
+console.log((b + c) + d);
 
 // ternary (3 operands)
-// TODO explain this
+const today = "Saturday";
+const isWeekend = (today === "Saturday" || today === "Sunday") ? true : false;
 
 
